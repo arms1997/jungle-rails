@@ -15,7 +15,7 @@ RSpec.feature "AddToCarts", type: :feature do
     end
   end
 
-  scenario "They can navigate from home page to product detail page" do 
+  scenario "They can add an item to cart and it will update" do 
 
     visit root_path
 
